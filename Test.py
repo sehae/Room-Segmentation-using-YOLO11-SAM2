@@ -5,7 +5,7 @@ from ultralytics import SAM
 yolo_model = YOLO("Trained YOLO11 Model/best.pt")
 
 # Run batched inference on a list of images
-results = yolo_model("Data/sample3.jpg")
+results = yolo_model("Data/sample4.jpg")
 
 # Load the SAM model
 sam_model = SAM("sam2_b.pt")
