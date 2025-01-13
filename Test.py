@@ -2,7 +2,7 @@ from ultralytics import YOLO
 from ultralytics import SAM
 
 # Load the YOLO model
-yolo_model = YOLO("Trained YOLO11 Model/best.pt")
+yolo_model = YOLO("Trained Model - YOLOv11 V1/Trained YOLO11 Model/best.pt")
 
 # Run batched inference on a list of images
 results = yolo_model("Data/sample4.jpg")
